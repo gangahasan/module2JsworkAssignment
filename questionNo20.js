@@ -4,14 +4,14 @@ function createCounter(){
      return {
        increment: function () {
          count++;
-         console.log(`Current count: ${count}`);
+         return `Current count: ${count}`;
        },
        decrement: function () {
          count--;
-         console.log(`Current count: ${count}`);
+         return`Current count: ${count}`;
        },
         display: function () {
-        console.log(`Current count: ${count}`);
+        return`Current count: ${count}`;
        },
      };
 }
